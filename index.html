@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--tells the browser to render the file as html doc, also about the version of HTML, currently its HTML5. check https://docs.emmet.io/cheat-sheet/ -->
+<html>
+
+<head>
+  <meta charset="utf-8"> <!-- std encoding, including all intl symbols. All the text are encoded using utf-8; browser set correct encoding depends on language.serach for mojibake -->
+  <meta name="description" content="Free Web tutorials">
+  <!--more details can seen here https://www.w3schools.com/html/html_head.asp-->
+  <title>🚀Darvin's Personal Site</title>
+  <!--go to https://unicode-table.com/en/sets/emoji/ copy n paste an emoji here -->
+</head>
+
+<body>
+  <!-- below is to make the img in left side and text in the right side. for that created a table with one tr and 2 td and copied the stuffs inside.cellspacing="20" for space b/w two td's
+  <table cellspacing="20">
+    <tr>
+      <td>  <img src="https://media.licdn.com/dms/image/C5603AQGIMMtIYODTvw/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=3ksaZwpjXN1trPFTeFg0lKOJkK-At83jLuG2abmUWCA" alt="Darvin George profile picture"></td>
+      <td>  <h1>Darvin George</h1>
+        <p><em>Experienced Technical Analyst <strong>| <a href="https://www.axelos.com/best-practice-solutions/itil">ITIL 4</a> | Azure AZ-900</strong></em></p>
+
+        <p>I am a technical analysts, greadute in Experienced</p></td>
+    </tr>
+  </table>
+  <hr noshade> -->
+  <img src="https://media.licdn.com/dms/image/C5603AQGIMMtIYODTvw/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=3ksaZwpjXN1trPFTeFg0lKOJkK-At83jLuG2abmUWCA" alt="Darvin George profile picture">
+  <!-- just type img and press tab then ths will come img src="" alt="". alt is alternate text. if the browser not display the img properly then this txt displays. Also this is the txt that google uses if we serach for image and display correspondimg image.If we give the url the browser ping the url and download & displays it-->
+  <h1>Darvin George</h1>
+  <p><em>Experienced Technical Analyst <strong>| <a href="https://www.axelos.com/best-practice-solutions/itil">ITIL 4</a> | Azure AZ-900</strong></em></p>
+  <!--serach italizise mdn in google and we see diffrent tag elements to <italize>. em emphasis</em>-->
+  <p>I am a technical analysts, greadute in Experienced</p>
+  <hr noshade>
+  <h3>Education</h3>
+  <ul>
+    <li>CUSAT</li>
+    <li>HSE</li>
+  </ul>
+  <h3>Courses</h3>
+  <ol type="i">
+    <!--instead of number used roman numerals-->
+    <li><a href="https://www.youtube.com/watch?v=6Maq5IyHSuc">ECE</a></li>
+    <!--img links also we can given with this a href tag-->
+    <li>Science</li>
+  </ol>
+  <ol start="7">
+    <!--number starts from 7 and counting-->
+    <li>ECE</li>
+    <li>Science</li>
+  </ol>
+
+  <hr>
+
+  <h3>Work Experinece</h3>
+  <table cellspacing="20">
+    <!--  border="1" to give border in 1 px -->
+    <thead>
+      <!--for heading. First write the tr and td then come to the thead-->
+      <tr>
+        <th>Year</th>
+        <th>Designation</th>
+        <th>Company</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2010-2015</td>
+        <td>Technical Analyst</td>
+        <td>Empress Cybernetics</td>
+      </tr>
+      <tr>
+        <td>2015-2019</td>
+        <td>Technical Analyst</td>
+        <td>Xerox Corporation</td>
+      </tr>
+    </tbody>
+  </table>
+
+<hr>
+
+  <h3>Skills</h3>
+
+<!--<table >
+  <tr>
+    <td>
+<table  >
+      <tr>
+        <td><table  >
+    <tr>
+      <td>HTML</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Javascript</td>
+      <td>⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>⭐⭐⭐⭐</td>
+      <td>Testing</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+
+  </table></td>
+        </tr></td>
+      </td>
+  </tr>
+</table>-->
+
+
+
+  <table cellspacing="10" >
+    <tr>
+      <td>HTML</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Javascript</td>
+      <td>⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>⭐⭐⭐⭐</td>
+      <td>Testing</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+
+  </table>
+
+  <hr noshade>
+  <a href="hobbies.html">My hobbies</a>
+  <br />
+  <a href="Contact.html">Contact Me</a>
+</body>
+
+</html>
